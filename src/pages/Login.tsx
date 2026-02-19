@@ -30,14 +30,14 @@ export default function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-muted px-4">
       <div className="w-full max-w-md bg-card border rounded-2xl p-6 shadow-sm">
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex flex-col items-center text-center gap-3 mb-4">
           <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-primary-foreground font-bold">
             QR
           </div>
           <div>
             <h1 className="text-xl font-bold">Sign in</h1>
             <p className="text-sm text-muted-foreground">
-              Continue to your QR Generator dashboard
+              Continue to your QR Generator dashboards
             </p>
           </div>
         </div>
@@ -58,4 +58,5 @@ export default function Login() {
     </div>
   );
 }
+
 
